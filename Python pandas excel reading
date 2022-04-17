@@ -1,0 +1,3 @@
+caps = pd.read_excel('C:/Users/ZHEN WANG/PycharmProjects/pythonProject1/caps.xlsx', sheet_name='2')
+caps.plot.bar(x='Field', y=['Number1', 'Number2'], color=['orange', 'red'])
+plt.show()
